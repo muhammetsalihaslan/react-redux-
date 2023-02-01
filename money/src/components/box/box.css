@@ -1,0 +1,47 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -20px;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.my-masonry-grid_column {
+  border-left: 20px solid transparent;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.my-masonry-grid_column > div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.my-masonry-grid_column > img {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+.sell {
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f53b57;
+  color: #fff;
+}
+
+.buy {
+  width: 70px;
+  height: 35px;
+  border: none;
+  background-color: #22c38a;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.inp {
+  width: 70px;
+  height: 35px;
+  margin: 10px;
+}
