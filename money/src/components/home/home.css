@@ -6,3 +6,9 @@
 .navbarImg {
   border-radius: 50%;
 }
+
+.moneybag {
+  border: 1px solid white;
+  background-color: #22c38a;
+  color: #fff;
+}

@@ -8,9 +8,12 @@ const Home = () => {
         <img
           className="navbarImg"
           src="https://neal.fun/spend/billgates.jpg"
-          alt=""
+          alt="bg"
         />
         <h2>Spend Bill Gates' Money</h2>
+        <div className="moneybag">
+          <h2>$100,000,000,000</h2>
+        </div>
       </div>
     </div>
   );
