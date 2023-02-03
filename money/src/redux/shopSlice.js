@@ -8,3 +8,5 @@ export const shopSlice = createSlice({
 
   reducers: {},
 });
+
+export default shopSlice.reducer;
