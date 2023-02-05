@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Data } from "../../data";
 import Masonry from "react-masonry-css";
 import "./box.css";
 
 const Box = () => {
+  const [piece, setPiece] = useState(0);
   return (
     <div>
       <Masonry
@@ -18,7 +19,7 @@ const Box = () => {
               <h3>{item.username}</h3>
               <p style={{ color: "22c38a" }}>${item.price}</p>
               <button className="sell">Sell</button>
-              <input className="inp" type="text" />
+              <input className="inp" type="text" value={piece} />
               <button className="buy">Buy</button>
             </div>
           </div>
